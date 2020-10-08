@@ -1,0 +1,70 @@
+#container,
+#clickCounter,
+#chat,
+p,
+#userCounter {
+    padding: 5px;
+    border: 2px solid;
+}
+* {
+    font-size: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.msgCard {
+    background-color: black;
+    color: white;
+}
+
+#container {
+    background-color: yellowgreen;
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+        "userCounter clickCounter"
+        "chat chat";
+}
+
+#userCounter {
+    grid-area: userCounter;
+}
+
+#clickCounter {
+    grid-area: clickCounter;
+}
+
+#chat {
+    grid-area: chat;
+}
+
+#msgChat {
+}
+
+button {
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:disabled {
+    cursor: not-allowed;
+}
+
+[name="plus"] {
+    background-color: lightgreen;
+}
+
+[name="plus"]:hover {
+    background-color: green;
+    color: white;
+}
+
+[name="minus"] {
+    background-color: lightcoral;
+}
+
+[name="minus"]:hover {
+    background-color: red;
+    color: white;
+}

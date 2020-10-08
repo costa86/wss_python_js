@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>User: <span id="usernameHeader"></span></h1>
+
+    <div id="container">
+
+        <div id="userCounter">
+            <h3>Users online: <span id="onlineUsers">0</span> </h3>
+        </div>
+
+        <div id="clickCounter">
+            <h3>Counter: <span id="counter"></span> </h3>
+            <button name="plus" title="Add 1" class="counterButtons">+</button>
+            <button name="minus" title="Reduce 1" class="counterButtons">-</button>
+        </div>
+
+        <div id="chat">
+            <strong>Username: </strong><input id="username" type="text">
+            <strong>Message: </strong><input id="inputChatMessage" type="text">
+            <button id="btnSendMsg">SEND</button>
+            <div id="messagesLog"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

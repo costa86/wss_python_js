@@ -1,0 +1,11 @@
+1 /etc/ssl/certs
+
+2 /home/costa/Treasure/python/socket/full/full_new
+
+
+3 /usr/local/share/ca-certificates/
+
+4 sudo update-ca-certificates
+---
+copiar crt para 3
+
